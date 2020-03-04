@@ -4,7 +4,7 @@
 import numpy as np
 
 import gym
-#from gym.spaces import prng
+from gym.spaces import prng
 
 class MultiDiscrete(gym.Space):
     """
